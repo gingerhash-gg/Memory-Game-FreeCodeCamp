@@ -7,9 +7,19 @@
   body {
     height: 100vh;
     display: flex;
-    background: #060AB2;
+    flex-direction: column;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   }
-  
+  h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    margin-top: 50px
+  }
   .memory-game {
     width: 640px;
     height: 640px;
